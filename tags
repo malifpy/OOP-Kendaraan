@@ -21,7 +21,6 @@ Bus	src/Bus.cpp	/^Bus::Bus(int nomorK, std::string merk, int tk, int cap) : Kend
 Bus	src/Bus.hpp	/^class Bus : public Kendaraan {$/;"	c
 CC	Makefile	/^CC = g++$/;"	m
 DEFAULT_SIZE	src/KoleksiKendaraan.hpp	/^#define DEFAULT_SIZE /;"	d
-Deskripsi Tugas	doc/LatihanKendaraan.md	/^## Deskripsi Tugas$/;"	s
 EXEC_NAME	Makefile	/^EXEC_NAME = main$/;"	m
 Kendaraan	src/Kendaraan.cpp	/^Kendaraan::Kendaraan(){$/;"	f	class:Kendaraan
 Kendaraan	src/Kendaraan.cpp	/^Kendaraan::Kendaraan(const Kendaraan& K){$/;"	f	class:Kendaraan
