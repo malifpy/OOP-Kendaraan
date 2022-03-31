@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/malifpy/Alif/Git/OOP-Kendaraan/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(BIN_DIR)/$(EXEC_NAME)	Makefile	/^$(BIN_DIR)\/$(EXEC_NAME): $(ALL_OBJ)$/;"	t
+$(OBJ_DIR)/%.o	Makefile	/^$(OBJ_DIR)\/%.o: $(SRC_DIR)\/%.cpp$/;"	t
+ALL_CPP	Makefile	/^ALL_CPP = $(shell find $(SRC_DIR) -name "*.cpp")$/;"	m
+ALL_OBJ	Makefile	/^ALL_OBJ = $(patsubst $(SRC_DIR)\/%.cpp, $(OBJ_DIR)\/%.o, $(ALL_CPP))$/;"	m
+AoK	src/KoleksiKendaraan.hpp	/^        Kendaraan** AoK;$/;"	m	class:KoleksiKendaraan	typeref:typename:Kendaraan **
+Build	README.md	/^## Build$/;"	s	chapter:Object Oriented Programming: Latihan Kendaraan
+Bus	src/Bus.cpp	/^Bus::Bus() : Kendaraan() {$/;"	f	class:Bus
+Bus	src/Bus.cpp	/^Bus::Bus(const Bus& K) : Kendaraan(K){$/;"	f	class:Bus
+Bus	src/Bus.cpp	/^Bus::Bus(int nomorK, std::string merk, int tk, int cap) : Kendaraan(nomorK, "Bus", merk, tk){$/;"	f	class:Bus
+Bus	src/Bus.hpp	/^class Bus : public Kendaraan {$/;"	c
+CC	Makefile	/^CC = g++$/;"	m
+DEFAULT_SIZE	src/KoleksiKendaraan.hpp	/^#define DEFAULT_SIZE /;"	d
+Deskripsi Tugas	doc/LatihanKendaraan.md	/^## Deskripsi Tugas$/;"	s
+EXEC_NAME	Makefile	/^EXEC_NAME = main$/;"	m
+Kendaraan	src/Kendaraan.cpp	/^Kendaraan::Kendaraan(){$/;"	f	class:Kendaraan
+Kendaraan	src/Kendaraan.cpp	/^Kendaraan::Kendaraan(const Kendaraan& K){$/;"	f	class:Kendaraan
+Kendaraan	src/Kendaraan.cpp	/^Kendaraan::Kendaraan(int nomorK, std::string cat, std::string merk, int tk ){$/;"	f	class:Kendaraan
+Kendaraan	src/Kendaraan.hpp	/^class Kendaraan {$/;"	c
+KoleksiKendaraan	src/KoleksiKendaraan.cpp	/^KoleksiKendaraan::KoleksiKendaraan(){$/;"	f	class:KoleksiKendaraan
+KoleksiKendaraan	src/KoleksiKendaraan.cpp	/^KoleksiKendaraan::KoleksiKendaraan(const KoleksiKendaraan& KK){$/;"	f	class:KoleksiKendaraan
+KoleksiKendaraan	src/KoleksiKendaraan.cpp	/^KoleksiKendaraan::KoleksiKendaraan(int sz){$/;"	f	class:KoleksiKendaraan
+KoleksiKendaraan	src/KoleksiKendaraan.hpp	/^class KoleksiKendaraan {$/;"	c
+Minibus	src/Minibus.cpp	/^Minibus::Minibus() : Kendaraan() {}$/;"	f	class:Minibus
+Minibus	src/Minibus.cpp	/^Minibus::Minibus(const Minibus &K) : Kendaraan(K) {}$/;"	f	class:Minibus
+Minibus	src/Minibus.cpp	/^Minibus::Minibus(int nomorK, std::string merk, int tk)$/;"	f	class:Minibus
+Minibus	src/Minibus.hpp	/^class Minibus : public Kendaraan {$/;"	c
+Mobil	src/Mobil.cpp	/^Mobil::Mobil() : Kendaraan() { this->supir = "XXXX"; }$/;"	f	class:Mobil
+Mobil	src/Mobil.cpp	/^Mobil::Mobil(const Mobil& K) : Kendaraan(K){$/;"	f	class:Mobil
+Mobil	src/Mobil.cpp	/^Mobil::Mobil(int nomorK, std::string merk, int tk,$/;"	f	class:Mobil
+Mobil	src/Mobil.hpp	/^class Mobil : public Kendaraan {$/;"	c
+OBJ_DIR	Makefile	/^OBJ_DIR = obj$/;"	m
+Object Oriented Programming: Latihan Kendaraan	README.md	/^# Object Oriented Programming: Latihan Kendaraan$/;"	c
+Run	README.md	/^## Run$/;"	s	chapter:Object Oriented Programming: Latihan Kendaraan
+SRC_DIR	Makefile	/^SRC_DIR = src$/;"	m
+__BUS_H__	src/Bus.hpp	/^#define __BUS_H__$/;"	d
+__KENDARAAN_H__	src/Kendaraan.hpp	/^#define __KENDARAAN_H__$/;"	d
+__KOLEKSI_KENDARAAN_H__	src/KoleksiKendaraan.hpp	/^#define __KOLEKSI_KENDARAAN_H__$/;"	d
+__MINIBUS_H__	src/Minibus.hpp	/^#define __MINIBUS_H__$/;"	d
+__MOBIL_H__	src/Mobil.hpp	/^#define __MOBIL_H__$/;"	d
+biayaSewa	src/Bus.cpp	/^int Bus::biayaSewa(int lamaSewa){$/;"	f	class:Bus	typeref:typename:int
+biayaSewa	src/Kendaraan.cpp	/^int Kendaraan::biayaSewa(int lamaSewa){$/;"	f	class:Kendaraan	typeref:typename:int
+biayaSewa	src/Minibus.cpp	/^int Minibus::biayaSewa(int lamaSewa) {$/;"	f	class:Minibus	typeref:typename:int
+biayaSewa	src/Mobil.cpp	/^int Mobil::biayaSewa(int lamaSewa){$/;"	f	class:Mobil	typeref:typename:int
+build	Makefile	/^build: $(BIN_DIR)\/$(EXEC_NAME)$/;"	t
+clean	Makefile	/^clean:$/;"	t
+diskon	src/Minibus.cpp	/^float Minibus::diskon(int lamaSewa) {$/;"	f	class:Minibus	typeref:typename:float
+kapasitas	src/Bus.hpp	/^        int kapasitas;$/;"	m	class:Bus	typeref:typename:int
+kategori	src/Kendaraan.hpp	/^        std::string kategori;$/;"	m	class:Kendaraan	typeref:typename:std::string
+main	src/main.cpp	/^int main(){$/;"	f	typeref:typename:int
+merk	src/Kendaraan.hpp	/^        std::string merk;$/;"	m	class:Kendaraan	typeref:typename:std::string
+nEff	src/KoleksiKendaraan.hpp	/^        int nEff;$/;"	m	class:KoleksiKendaraan	typeref:typename:int
+nk	src/Kendaraan.hpp	/^        int nk;             \/\/ Nomor Kendaraan$/;"	m	class:Kendaraan	typeref:typename:int
+operator <<	src/KoleksiKendaraan.cpp	/^void KoleksiKendaraan::operator<<(Kendaraan& K){$/;"	f	class:KoleksiKendaraan	typeref:typename:void
+operator <<	src/KoleksiKendaraan.cpp	/^void KoleksiKendaraan::operator<<(KoleksiKendaraan& KK){$/;"	f	class:KoleksiKendaraan	typeref:typename:void
+printAll	src/KoleksiKendaraan.cpp	/^void KoleksiKendaraan::printAll(){$/;"	f	class:KoleksiKendaraan	typeref:typename:void
+printInfo	src/Bus.cpp	/^void Bus::printInfo(){$/;"	f	class:Bus	typeref:typename:void
+printInfo	src/Kendaraan.cpp	/^void Kendaraan::printInfo(){$/;"	f	class:Kendaraan	typeref:typename:void
+printInfo	src/Mobil.cpp	/^void Mobil::printInfo(){$/;"	f	class:Mobil	typeref:typename:void
+run	Makefile	/^run: $(BIN_DIR)\/$(EXEC_NAME)$/;"	t
+size	src/KoleksiKendaraan.hpp	/^        int size;$/;"	m	class:KoleksiKendaraan	typeref:typename:int
+supir	src/Mobil.hpp	/^        std::string supir;$/;"	m	class:Mobil	typeref:typename:std::string
+tk	src/Kendaraan.hpp	/^        int tk;             \/\/ Tahun Keluar$/;"	m	class:Kendaraan	typeref:typename:int
+~Bus	src/Bus.cpp	/^Bus::~Bus(){$/;"	f	class:Bus
+~Kendaraan	src/Kendaraan.cpp	/^Kendaraan::~Kendaraan(){$/;"	f	class:Kendaraan
+~KoleksiKendaraan	src/KoleksiKendaraan.cpp	/^KoleksiKendaraan::~KoleksiKendaraan(){$/;"	f	class:KoleksiKendaraan
+~Minibus	src/Minibus.cpp	/^Minibus::~Minibus() {}$/;"	f	class:Minibus
+~Mobil	src/Mobil.cpp	/^Mobil::~Mobil(){$/;"	f	class:Mobil
